@@ -1,1 +1,46 @@
+.hero {
+  background-color: #e9f1ff;
+  padding: 40px 20px;
+  margin: 20px 0;
+  border-radius: 10px;
+}
+.hero h2 {
+  font-size: 28px;
+}
+.hero p {
+  font-size: 18px;
+  margin: 10px 0 20px;
+}
+.hero button {
+  padding: 12px 25px;
+  background: #007bff;
+  color: white;
+  border: none;
+  font-weight: bold;
+  border-radius: 6px;
+}
+
+.testimonials {
+  margin: 30px auto;
+  max-width: 800px;
+  padding: 20px;
+  background: #fff8dc;
+  border-radius: 10px;
+}
+
+.pricing {
+  margin: 30px auto;
+  padding: 20px;
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+.tier {
+  background: white;
+  margin: 10px auto;
+  padding: 15px;
+  max-width: 500px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
 
