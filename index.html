@@ -1,1 +1,83 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AI Image & Video Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- 🔝 Top Navigation -->
+  <header>
+    <h1>🌐 AI Image & Video Generator</h1>
+    <nav>
+      <button onclick="alert('Login system coming soon')">Login</button>
+      <button onclick="alert('Register system coming soon')">Register</button>
+      <button onclick="alert('Upgrade plans coming soon')">Upgrade</button>
+    </nav>
+  </header>
+
+  <!-- 🎯 Landing Intro -->
+  <section class="hero">
+    <h2>Turn Your Ideas into Stunning Images & Videos</h2>
+    <p>Use cutting-edge AI to generate artwork, content, and animations — no design skills needed.</p>
+    <button onclick="document.getElementById('imageForm').scrollIntoView({behavior: 'smooth'});">Try It Now</button>
+  </section>
+
+  <!-- 🖼️ Image Generator -->
+  <main>
+    <section class="generator">
+      <h2>🖼️ Generate AI Image</h2>
+      <form id="imageForm">
+        <input type="text" id="promptInput" placeholder="Enter image description..." required />
+        <button type="submit">Generate Image</button>
+      </form>
+      <p id="loadingImage" style="display:none;">⏳ Generating image...</p>
+      <img id="generatedImage" alt="Generated AI image will appear here" />
+    </section>
+
+    <!-- 🎬 Video Generator -->
+    <section class="generator">
+      <h2>🎬 Generate AI Video (Coming Soon)</h2>
+      <form id="videoForm" onsubmit="alert('Video generation feature coming soon!'); return false;">
+        <input type="text" id="videoPromptInput" placeholder="Enter video description..." required />
+        <button type="submit">Generate Video</button>
+      </form>
+      <p id="loadingVideo" style="display:none;">⏳ Video feature will launch soon!</p>
+      <video id="generatedVideo" controls style="display:none;">
+        <source src="" type="video/mp4" />
+        Your browser does not support video playback.
+      </video>
+    </section>
+
+    <!-- ⭐ Testimonials -->
+    <section class="testimonials">
+      <h2>🌟 What Users Say</h2>
+      <p>"This tool brought my imagination to life. Super intuitive!" – <strong>Mary A., Designer</strong></p>
+      <p>"I saved hours of editing. Just describe and boom — AI does it!" – <strong>Alex K., Content Creator</strong></p>
+    </section>
+
+    <!-- 💸 Pricing -->
+    <section class="pricing">
+      <h2>💸 Plans & Pricing</h2>
+      <div class="tier">
+        <h3>Free</h3>
+        <p>• Generate up to 10 images/day<br>• Community access</p>
+      </div>
+      <div class="tier">
+        <h3>Pro (Coming Soon)</h3>
+        <p>• Unlimited images<br>• High-res video access<br>• Early feature access</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- 🧾 Footer -->
+  <footer>
+    <p>© 2025 AI Studio. Built with ❤️ using Hugging Face APIs. Videos powered by AI (Coming Soon).</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
