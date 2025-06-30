@@ -14,7 +14,7 @@ imageForm.addEventListener("submit", async (e) => {
     const response = await fetch("https://api-inference.huggingface.co/models/prompthero/openjourney-v4", {
       method: "POST",
       headers: {
-        "Authorization": "Bearer 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",
+        "Authorization": "Bearer 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",
         "Content-Type": "application/json"
       },
       body: JSON.stringify({ inputs: prompt })
